@@ -41,8 +41,8 @@ sudo dnf install -y \
     quickshell-git \
     caelestia-shell \
     app2unit \
-    python3-pip
-
+    python3-pip \
+    aubio-devel
 or exit 1
 
 # ---------------------------------------------------------
