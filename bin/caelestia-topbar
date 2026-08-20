@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+export QML2_IMPORT_PATH="$HOME/.local/lib/qt6/qml"
+export QML_IMPORT_PATH="$HOME/.local/lib/qt6/qml"
+export CAELESTIA_LIB_DIR="$HOME/.local/lib/caelestia-topbar"
+
+exec qs -p "$HOME/.config/quickshell/caelestia-topbar/shell.qml"
